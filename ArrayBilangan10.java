@@ -1,0 +1,3 @@
+class ArrayBilangan10{
+    
+}
