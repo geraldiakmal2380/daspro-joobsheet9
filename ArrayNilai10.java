@@ -4,13 +4,18 @@ public class ArrayNilai10 {
         Scanner mlebu = new Scanner(System.in);
         int[] nilaiakhir = new int[10];
 
-        for (int i=0;i<10;i++){
+        for (int i=0;i<nilaiakhir.length;i++){
             System.out.print("Masukan nilai ke "+(i+1)+" :");
             nilaiakhir[i]= mlebu.nextInt();
         }
-        for (int i=0;i<10;i++){
-            System.out.println("Nilai akhir mahasiswa ke "+(i+1)+" adalah "+nilaiakhir[i]);
-            mlebu.close();
+        for (int i=0;i<nilaiakhir.length;i++){
+            if (nilaiakhir[i]>70){
+                System.out.println("Mahasiswa ke-"+(i+1)+" lulus!");
+            }
+            else{
+                System.out.println("Mahasiswa ke-"+(i+1)+" tidak lulus!");
+            }
         }
+        mlebu.close();
     }
 }
