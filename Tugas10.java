@@ -42,7 +42,7 @@ public class Tugas10 {
         System.out.println("=============================");
         System.out.println("Nilai tertinggi "+nilaitertinggi+"\nNilai terendah "+nilaiterendah);
         System.out.println("rata2 dari nilai di atas adalah "+rata2);
-
+        mlebu.close();
         
     }
 }
